@@ -82,10 +82,10 @@ button {
   position: absolute;
   color: white;
   background-color: rgba(0, 0, 0, 0.444);
-  height: 20vh;
+  height: 12rem;
   width: 36vw;
   text-align: center;
-  top: 40vh;
+  top: 32vh;
   left: -8px;
-  font-size: 4rem;
+  font-size: 8rem;
 }
