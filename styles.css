@@ -26,6 +26,47 @@ img {
 
 /* actual styling */
 
-body {
+/* main {
+    display: flex;
+}
+
+main div.BG-img {
+    height: 300px;
+    width: 300px;
     background-image: url(images/music_background.avif);
+} */
+
+main {
+    padding: 24vh 10vw;
+}
+
+p {
+    margin-bottom: 4vh;
+}
+
+p + p {
+    margin-bottom: 8vh;
+}
+
+div.fields {
+    display: flex;
+    flex-flow: row wrap;
+    width: 500px;
+
+}
+
+.fields div {
+    display: flex;
+    flex-flow: column nowrap;
+    margin-left: 0;
+    margin-right: 40px;
+    
+}
+
+form h2 {
+    margin-bottom: 12px;
+}
+
+button {
+    margin: 20px 0;
 }
