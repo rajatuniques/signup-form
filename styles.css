@@ -32,48 +32,60 @@ body {
 }
 
 main {
-    position: absolute;
-    left: 34vw;
-    padding: 20vh 4vw;
+  position: absolute;
+  left: 34vw;
+  padding: 20vh 4vw;
 }
 
 p {
-    margin-bottom: 4vh;
+  margin-bottom: 4vh;
 }
 
 p + p {
-    margin-bottom: 8vh;
+  margin-bottom: 8vh;
 }
 
 div.fields {
-    display: flex;
-    flex-flow: row wrap;
-    width: 500px;
+  display: flex;
+  flex-flow: row wrap;
+  width: 500px;
 
 }
 
 .fields div {
-    display: flex;
-    flex-flow: column nowrap;
-    margin-left: 0;
-    margin-right: 40px;
-    margin-bottom: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  margin-left: 0;
+  margin-right: 40px;
+  margin-bottom: 20px;
     
 }
 
 form h2 {
-    margin-bottom: 12px;
+  margin-bottom: 12px;
 }
 
 button {
-    margin: 20px 0;
+  margin: 20px 0;
 }
 
 .BG-img {
-    position: absolute;
-    height: 100vh;
-    width: 36vw;
-    top: -8px;
-    left: -8px;
-    background-image: url(images/music_background.avif);
+  position: absolute;
+  height: 100vh;
+  width: 36vw;
+  top: -8px;
+  left: -8px;
+  background-image: url(images/music_background.avif);
+}
+
+.BG-img + div {
+  position: absolute;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.444);
+  height: 20vh;
+  width: 36vw;
+  text-align: center;
+  top: 40vh;
+  left: -8px;
+  font-size: 4rem;
 }
