@@ -23,3 +23,9 @@ img {
   display: block;
   max-inline-size: 100%;
 }
+
+/* actual styling */
+
+body {
+    background-image: url(images/music_background.avif);
+}
