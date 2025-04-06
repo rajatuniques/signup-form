@@ -25,19 +25,16 @@ img {
 }
 
 /* actual styling */
-
-/* main {
-    display: flex;
+body {
+  position: relative;
+  display: flex;
+  padding: 0;
 }
 
-main div.BG-img {
-    height: 300px;
-    width: 300px;
-    background-image: url(images/music_background.avif);
-} */
-
 main {
-    padding: 24vh 10vw;
+    position: absolute;
+    left: 34vw;
+    padding: 20vh 4vw;
 }
 
 p {
@@ -73,7 +70,10 @@ button {
 }
 
 .BG-img {
+    position: absolute;
     height: 100vh;
-    width: 25vw;
+    width: 36vw;
+    top: -8px;
+    left: -8px;
     background-image: url(images/music_background.avif);
 }
