@@ -60,6 +60,7 @@ div.fields {
     flex-flow: column nowrap;
     margin-left: 0;
     margin-right: 40px;
+    margin-bottom: 20px;
     
 }
 
@@ -69,4 +70,10 @@ form h2 {
 
 button {
     margin: 20px 0;
+}
+
+.BG-img {
+    height: 100vh;
+    width: 25vw;
+    background-image: url(images/music_background.avif);
 }
