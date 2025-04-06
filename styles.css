@@ -80,19 +80,23 @@ button {
 
 .BG-img + div {
   position: absolute;
-  top: 32vh;
+  top: 20vh;
   left: -8px;
   display: flex;
   color: white;
-  background-color: rgba(0, 0, 0, 0.444);
+  background-color: rgba(0, 0, 0, 0.554);
   height: 12rem;
   width: 36vw;
   text-align: center;
-  font-size: 8rem;
+  font-size: 6rem;
 }
 
 .BG-img + div > img {
   height: 8rem;
   margin: 2rem;
 
+}
+
+.BG-img + div div {
+  margin-top: 3vh;
 }
