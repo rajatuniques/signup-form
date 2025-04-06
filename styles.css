@@ -135,3 +135,14 @@ button {
   cursor: pointer;
   font-weight: 700;
 }
+
+a,
+a:visited {
+  text-decoration: none;
+  font-weight: 600;
+  color: #243A52;
+}
+
+button + div {
+  font-family: sans-serif;
+}
