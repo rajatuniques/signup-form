@@ -156,3 +156,7 @@ a:visited {
 button + div {
   font-family: sans-serif;
 }
+
+img + div {
+  font-family: Audiowide, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
